@@ -102,7 +102,6 @@ body {
   height: 50vh;
 }
 .Popular-header {
-  border: 2px purple solid;
   height: 8vh;
   background-color: #dcd9d9;
   display: flex;
@@ -137,25 +136,25 @@ body {
 .item5 {
   box-shadow: 5px 5px 5px rgb(128, 127, 127);
   height: 20vh;
-  border: 2px solid orange;
-  align-items: center;
 }
 
 .tags-div {
   display: flex;
-  align-items: center;
-  background-color: beige;
+  justify-content: center;
 }
 .p-tags {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
   width: 90%;
-  border: 2px solid black;
 }
 
 .tags {
   background-color: #e3e3e3;
   align-items: center;
+}
+.selected-tag {
+  background-color: black;
+  color: white;
 }
 /* artical end */
