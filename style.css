@@ -94,7 +94,7 @@ body {
 .item2-content {
   display: flex;
   flex-direction: column;
-  border: rgb(102, 128, 0) 2px solid;
+
   gap: 6px;
 }
 .item3 {
